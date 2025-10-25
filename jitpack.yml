@@ -1,0 +1,6 @@
+jdk:
+  - openjdk21
+
+install:
+  - cd galaxy-library-utils
+  - bash ./mvnw clean install -DskipTests
