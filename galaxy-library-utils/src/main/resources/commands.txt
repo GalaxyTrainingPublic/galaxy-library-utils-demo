@@ -3,3 +3,11 @@ mvn clean package
 
 # Local install
 mvn install
+
+git add .
+
+git commit -m "init"
+git push origin main
+
+git tag -a v1.0.0 -m "Release version 1.0.0"
+git push origin v1.0.0
